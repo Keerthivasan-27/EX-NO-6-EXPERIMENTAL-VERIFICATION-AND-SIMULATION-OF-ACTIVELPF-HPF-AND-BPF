@@ -1,13 +1,12 @@
 # EX-NO-6-EXPERIMENTAL-VERIFICATION-AND-SIMULATION-OF-ACTIVELPF-HPF-AND-BPF
 ## 6 DESIGN OF ACTIVE LOW PASS, HIGH PASS AND BAND PASS FILTERS USING OP-AMP
-            
-**DATE:**  
+
          
 ---
 
-## AIM
+
             
-**DATE:**  
+**DATE:**  24/09/2025
          
 ---
 
@@ -35,12 +34,18 @@ A LPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 | 3 | Dual RPS | (0 – 30) V | 1 |
 | 4 | Op-Amp | µA741 | 2 |
 | 5 | Bread Board | — | 1 |
-| 6 | Resistors | 1.6K,10K,0.1 µF | 1 |
+| 6 | Resistors | 5k  2.5k  1k  0.01uf | 1 |
 | 7 | Connecting wires and probes | As required | — |
 
 ---
 ## CIRCUIT DIAGRAM
 <img width="836" height="455" alt="image" src="https://github.com/user-attachments/assets/e5181151-836f-4f80-8f56-53b23ff05c74" />
+
+![WhatsApp Image 2025-11-26 at 22 00 10_64efe43c](https://github.com/user-attachments/assets/ddd93b02-95a2-4ff8-83b9-5e1b02c0411b)
+
+![WhatsApp Image 2025-11-26 at 22 01 40_47c5b4e6](https://github.com/user-attachments/assets/e5c702c9-ac5c-42d6-9e52-6a763d77f058)
+
+
 
 
 ## MODEL GRAPH
@@ -62,6 +67,9 @@ S2 + 1.414 s + 1
 Now	Ao = 1 + (Rf / R1) = 1.586 = 1 + 0.586
 Let Ri = 10 KΩ, then Rf = 5.86 KΩ
 
+![WhatsApp Image 2025-11-26 at 22 00 25_89806a70](https://github.com/user-attachments/assets/b5a55176-3e27-4563-8bb9-271cfb15ea5b)
+
+
 
 ## PROCEDURE
 
@@ -76,28 +84,23 @@ PROCEDURE - (LPF):
 
 ## TABULATION
 
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
-		
+![WhatsApp Image 2025-11-26 at 22 00 40_17124102](https://github.com/user-attachments/assets/edae87fb-7180-45c5-bfab-25ca27799323)
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-11-26 at 22 01 07_4b8dda38](https://github.com/user-attachments/assets/973c103f-0d5d-4c8f-a3b1-200b9caea5fe)
+
+![WhatsApp Image 2025-11-26 at 22 01 20_e62322d6](https://github.com/user-attachments/assets/bb09b8c2-4724-4014-97a2-31d4f4779508)
+
+![WhatsApp Image 2025-11-26 at 22 01 52_b434f2e8](https://github.com/user-attachments/assets/88168ede-f7be-4e21-aa10-8641ca795b8c)
+
+
+
+
 
 ---
-
+DATE:30/09/2025
  ## 6 B HIGH PASS FILTER
 
 ---
@@ -116,13 +119,18 @@ A HPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 | 3 | Dual RPS | (0 – 30) V | 1 |
 | 4 | Op-Amp | µA741 | 2 |
 | 5 | Bread Board | — | 1 |
-| 6 | Resistors | 1.6K,10K,5.86K, 0.1 µF | 1 |
+| 6 | Resistors |5k  2.2k  1k  0.01uf| 1 |
 | 7 | Connecting wires and probes | As required | — |
 
 
 ## CIRCUIT DIAGRAM
 
 <img width="887" height="486" alt="image" src="https://github.com/user-attachments/assets/907a1395-28d4-406f-ac09-96c4e060587e" />
+
+![WhatsApp Image 2025-11-26 at 22 02 07_d900e48a](https://github.com/user-attachments/assets/9cf959ce-5b73-4068-9317-b0ae80ada53b)
+
+![WhatsApp Image 2025-11-26 at 22 03 11_b2ab7f63](https://github.com/user-attachments/assets/d29ea28e-23b5-42cd-a6b7-4471d7b27601)
+
 
 
 ## MODEL GRAPH
@@ -146,6 +154,8 @@ Now	Ao = 1 + (Rf / R1) = 1.586 = 1 + 0.586
 Let Ri = 10 KΩ, then Rf = 5.86 KΩ
 
 
+![WhatsApp Image 2025-11-26 at 22 02 18_236042e8](https://github.com/user-attachments/assets/be6a0995-2479-48de-98e9-c38e8f9b8424)
+
 ## PROCEDURE
 
 PROCEDURE - ( HPF):
@@ -159,28 +169,24 @@ PROCEDURE - ( HPF):
 
 ## TABULATION
 
-		
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+![WhatsApp Image 2025-11-26 at 22 02 29_35cc4a42](https://github.com/user-attachments/assets/ed4fdb13-5aa5-4319-b52a-366150d1e95a)
+
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
----
+![WhatsApp Image 2025-11-26 at 22 02 50_bf6c63f1](https://github.com/user-attachments/assets/7b7ffca7-c0ed-4878-8fc4-e229bb05133b)
 
+![WhatsApp Image 2025-11-26 at 22 02 58_e2b6eda5](https://github.com/user-attachments/assets/9f5c77b6-0e9f-4cc7-9213-c3abc3af493a)
+
+![IMG-20251126-WA0052 1](https://github.com/user-attachments/assets/4444556c-72f2-41fc-bec9-fe54ce0c04cf)
+
+
+
+
+---
+DATE:07/10/2025
  ## 6C Band Pass Filter
 
 ---
@@ -199,13 +205,18 @@ A BPF allows frequencies in between lower cut of frequency and higher cut of fre
 | 3 | Dual RPS | (0 – 30) V | 1 |
 | 4 | Op-Amp | µA741 | 2 |
 | 5 | Bread Board | — | 1 |
-| 6 | Resistors |10K,38.8K,7.9K,0.01uf | 1 |
+| 6 | Resistors |5k  800ohm  30k 0.01uf| 1 |
 | 7 | Connecting ires and probes | As required | — |
 
 
 ## CIRCUIT DIAGRAM
 
 <img width="1068" height="446" alt="image" src="https://github.com/user-attachments/assets/ee37b95a-05ea-448c-9102-111e071e41e8" />
+
+![WhatsApp Image 2025-11-26 at 22 03 37_c8c18f68](https://github.com/user-attachments/assets/a8593c05-f2b5-44ab-8e86-b7da11a5a45c)
+
+![WhatsApp Image 2025-11-26 at 22 05 01_fafac1db](https://github.com/user-attachments/assets/1b71bee9-19db-4feb-8096-bf05e56228f8)
+
 
 ## MODEL GRAPH
 
@@ -229,6 +240,9 @@ Now		Ao = 1 + (Rf / R1) 2-1=(Rf / Ri)
 Ri = Rf
 Let Ri = Rf = 10 KΩ
 
+![WhatsApp Image 2025-11-26 at 22 03 52_8b8b4c18](https://github.com/user-attachments/assets/19365a1d-f3c9-49d9-be97-dd3bbf5c5b1b)
+
+
 
 ## PROCEDURE
 
@@ -244,25 +258,20 @@ PROCEDURE:BAND PASS FILTER
 
 ## TABULATION
 
-		
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+![WhatsApp Image 2025-11-26 at 22 04 04_48b9d56f](https://github.com/user-attachments/assets/f5e4d13d-092f-42ec-b798-89781510a48d)
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+
+![WhatsApp Image 2025-11-26 at 22 04 33_d277d658](https://github.com/user-attachments/assets/7c58bf61-6d85-4ab4-8ff0-2a533cf95ab4)
+
+![WhatsApp Image 2025-11-26 at 22 04 45_16a64d3a](https://github.com/user-attachments/assets/d77e6159-24a0-430a-8eb7-aec840b6e906)
+
+![WhatsApp Image 2025-11-26 at 22 05 14_9864cb80](https://github.com/user-attachments/assets/8400d5c3-70d4-4e76-8a9d-bb12dbb0084a)
+
+
+
 
 ---
 ##RESULT:
