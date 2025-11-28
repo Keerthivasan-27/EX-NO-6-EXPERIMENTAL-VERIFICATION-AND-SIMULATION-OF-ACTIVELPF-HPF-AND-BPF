@@ -39,7 +39,6 @@ A LPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 
 ---
 ## CIRCUIT DIAGRAM
-<img width="836" height="455" alt="image" src="https://github.com/user-attachments/assets/e5181151-836f-4f80-8f56-53b23ff05c74" />
 
 ![WhatsApp Image 2025-11-26 at 22 00 10_64efe43c](https://github.com/user-attachments/assets/ddd93b02-95a2-4ff8-83b9-5e1b02c0411b)
 
@@ -125,8 +124,6 @@ A HPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 
 ## CIRCUIT DIAGRAM
 
-<img width="887" height="486" alt="image" src="https://github.com/user-attachments/assets/907a1395-28d4-406f-ac09-96c4e060587e" />
-
 ![WhatsApp Image 2025-11-26 at 22 02 07_d900e48a](https://github.com/user-attachments/assets/9cf959ce-5b73-4068-9317-b0ae80ada53b)
 
 ![WhatsApp Image 2025-11-26 at 22 03 11_b2ab7f63](https://github.com/user-attachments/assets/d29ea28e-23b5-42cd-a6b7-4471d7b27601)
@@ -210,8 +207,6 @@ A BPF allows frequencies in between lower cut of frequency and higher cut of fre
 
 
 ## CIRCUIT DIAGRAM
-
-<img width="1068" height="446" alt="image" src="https://github.com/user-attachments/assets/ee37b95a-05ea-448c-9102-111e071e41e8" />
 
 ![WhatsApp Image 2025-11-26 at 22 03 37_c8c18f68](https://github.com/user-attachments/assets/a8593c05-f2b5-44ab-8e86-b7da11a5a45c)
 
